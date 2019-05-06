@@ -1,0 +1,53 @@
+html:before {
+   background-color: whitesmoke;
+}
+
+html:after {
+    content: "";
+    background: url("assets/green-fields.jpg") no-repeat;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+body {
+    text-align: center;
+    opacity: 0.8;
+}
+
+h1 {
+    letter-spacing: 0.25rem;
+    font-family: 'monospace', 'Courier New', 'Courier';
+    text-align: center;
+    text-shadow: 2px 1px rgb(36, 28, 17);
+    font-size: 36px;
+    color: rgba(60, 139, 60, 0.781); 
+}
+
+p {
+    border: 2px solid rgb(78, 75, 75);
+    width: 800px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(24, 21, 21);
+    letter-spacing: 0.1rem;
+    
+}
+
+span {
+    color: rgba(33, 61, 42, 0.979);
+    font-size: 18px;
+    letter-spacing: 0ch;
+}
+
+
+
+
+  
